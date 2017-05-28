@@ -14,6 +14,6 @@ func main() {
 	sort.Ints(numbers)
 	fmt.Println("Numbers:", numbers)
 
-	areNumbersSorted := sort.IntsAreSorted((numbers))
+	areNumbersSorted := sort.IntsAreSorted(numbers)
 	fmt.Println("Numbers Sorted?", areNumbersSorted)
 }
